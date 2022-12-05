@@ -11,21 +11,21 @@ A 3D scene. The scene has different 3D objects themed as the world cup decoratio
 
 1- The Ground.
 
-1- The Player (Footballer model).
+2- The Player (Footballer model).
 
-2- The Football.
+3- The Football.
 
-3- The World Cup.
+4- The World Cup.
 
-4- The Scoreboard.
+5- The Scoreboard.
 
-5- The Flag (German flag, French flag, Italian flag).
+6- The Flag (German flag, French flag, Italian flag).
 
-6- The Goal Nets.
+7- The Goal Nets.
 
-7- The Stadium lights.
+8- The Stadium lights.
 
-8- The player Benches.
+9- The player Benches.
 
 
 # Rules
@@ -75,15 +75,19 @@ A 3D scene. The scene has different 3D objects themed as the world cup decoratio
 
 
 * Top view: 
+
 ![top view](https://user-images.githubusercontent.com/105018459/205694537-a77899c3-8040-47ce-a704-cedc2b7af951.PNG)
 
 
 * Front view:
+
 ![frontview](https://user-images.githubusercontent.com/105018459/205694569-205ac294-4b4d-42ed-86a5-b5398dc9d753.PNG)
 
 
 * Side view:
+
 ![side view](https://user-images.githubusercontent.com/105018459/205694610-4f659c4c-560d-475a-b659-17e0d86ef179.PNG)
+
 
 * Winning Screen:
 
@@ -91,7 +95,9 @@ A 3D scene. The scene has different 3D objects themed as the world cup decoratio
 
 
 * Losing Screen:
+
 ![losing screen](https://user-images.githubusercontent.com/105018459/205694862-d51f7d88-c3b1-472b-a200-f300d9bccb4f.PNG)
+
 
 * And you can move the camera using keys and mouse to get to a different view.
 
