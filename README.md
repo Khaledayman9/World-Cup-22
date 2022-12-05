@@ -103,7 +103,7 @@ A 3D scene. The scene has different 3D objects themed as the world cup decoratio
 ![losing screen](https://user-images.githubusercontent.com/105018459/205694862-d51f7d88-c3b1-472b-a200-f300d9bccb4f.PNG)
 
 
-* And you can move the camera using keys and mouse to get to a different view.
+* And you can move the camera using keys and mouse to get to a different view rather than the other defined views (top,side,front,default).
 
 
 # Technologies
