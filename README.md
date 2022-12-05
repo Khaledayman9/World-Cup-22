@@ -1,5 +1,5 @@
-# 2D Space Invaders
-A simplified version of the famous chicken invaders game. This game was created using the OpenGL which is a famous C/C++ Library for making 2D games.
+# World Cup 22
+A 3D scene. The scene has different 3D objects themed as the world cup decorations/environment that could be a stadium or a football field. The goal is to score a goal before the time ends, This was created using OpenGL3D.
 
 
 
@@ -9,82 +9,65 @@ A simplified version of the famous chicken invaders game. This game was created 
 
 # Models
 
-1- The Player Model (Space ship model).
+1- The Ground.
 
-2- The Enemy Model (Chicken model).
+1- The Player (Footballer model).
 
-3- The Power Up Model.
+2- The Football.
 
-4- The Bullet Model for the spaceship.
+3- The World Cup.
 
-5- The Bullet Model for the chicken (Egg).
+4- The Scoreboard.
 
-6- The Moon Model.
+5- The Flag (German flag, French flag, Italian flag).
 
-7- The Sun Model.
+6- The Goal Nets.
+
+7- The Stadium lights.
+
+8- The player Benches.
 
 
 # Rules
 
-- The Player Has 3 Lives.
-- The health of the Chicken is 100.
-- Each bullet deals 1 damage, either it is from the spaceship or it is from the chicken.
-- If the player has 0 lives then he loses (Defeat).
-- If the chicken has 0 health then the player wins (Victory).
-- Powerups are generated at random positions and in random times.
-- Whenever the player collides with the powerup, the spaceship changes color and he becomes bullet immune for a random amount of time.
-- The player can move in all directions in the middle of the screen.
-- The chicken is always at the top of the screen and can only move from left to right and vice versa. 
+- The player can move only inside the boundaries of the green field.
+- The player has to score a goal before 22 seconds (approx.) which is the timer.
+- The player wins if he scores a goal before the timer runs out, otherwise the referee whistles indicating end of time and he loses.
+- The scoreboard gets updated only if the player scores a goal before the timer runs out.
+
+# Movement
+
+- The player can move with keys (1,2,3,4).
+- The camera can move with keys (W,S,A,D,Q,E,Left Arrow, Right Arrow, Up Arrow, Down Arrow).
+- The Mouse can move the camera in only 2 directions front and back. 
 
 # Controls
 
-* W => Move upwards.
-* S => Move downwards.
-* A => Move left.
-* D => Move right.
-* F => Fire bullet.
+* W => Move camera upwards.
+* S => Move camera downwards.
+* A => Move camera left.
+* D => Move camera right.
+* Q => Camera Zoom in.
+* E => Camera Zoom Out
+* Left Arrow => Rotate camera left.
+* Right Arrow => Rotate camera right.
+* Up Arrow => Rotate camera up.
+* Down Arrow => Rotate camera down.
+* 1 => Move player downwards.
+* 2 => Move player upwards.
+* 3 => Move player left.
+* 4 => Move player right.
+* T => Camera top view.
+* F => Camera front view.
+* U => Camera side view.
+* B => Camera default view. 
 * R => Restart the game.
-* Controls are displayed in the bottom left part of the screen as shown:
+* Mouse click in => Camera Zoom in.
+* Mouse click out => Camera Zoom out.
 
-![controls](https://user-images.githubusercontent.com/105018459/202916101-a0a08779-db1c-4fe6-940b-544fe04e3597.PNG)
 
 
 # Layout
-
-1- The number of lives of the player is displayed at the bottom right of the screen.
-
-2- The Health of the chicken is displayed at the bottom left of the screen.
-
-3- The Controls are displayed in the bottom left of the screen.
-
-4- The Player/Spaceship is centered in the middle of the screen.
-
-5- The Chicken is displayed at the top of the screen.
-
-
-![Layout](https://user-images.githubusercontent.com/105018459/202916440-c5fd6dba-59c3-41af-a728-0ed4345f3f2f.PNG)
-
-
-6- The Powerup model is generated randomly at any position in the screen and at random times.
-
-
-![powerup](https://user-images.githubusercontent.com/105018459/202916938-f6add0bb-105a-4805-97b9-0b7ced173a3c.PNG)
-
-
-7- Whenever the player gains the powerup, the spaceship turns to green and the screen displays "You are now immune to bullets".
-
-![powerup on](https://user-images.githubusercontent.com/105018459/202917038-5e0397f5-10e6-4028-a991-6985587bec4b.PNG)
-
-
-8- Whenever the player/spaceship wins and kills the chicken, the screen displays "Victory".
-
-![victory](https://user-images.githubusercontent.com/105018459/202916898-14142f5e-bc68-4129-8f7b-10e799c81acd.PNG)
-
-
-9- Whenever the player/spaceship loses and gets killed by the chicken, the screen display "Defeat". 
-
-
-![Defeat](https://user-images.githubusercontent.com/105018459/202916768-9b053c73-4d04-429d-a8ba-ef260e535b3a.PNG)
 
 
 
