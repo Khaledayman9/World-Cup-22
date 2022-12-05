@@ -3,7 +3,7 @@ A 3D scene. The scene has different 3D objects themed as the world cup decoratio
 
 
 
-![](https://github.com/Khaledayman9/2D-Space-Invaders/blob/master/layout.gif)
+![](https://github.com/Khaledayman9/World-Cup-22/blob/master/worldcupgif.gif)
 
 
 
@@ -69,7 +69,31 @@ A 3D scene. The scene has different 3D objects themed as the world cup decoratio
 
 # Layout
 
+* Default view:
 
+![world up](https://user-images.githubusercontent.com/105018459/205693766-43ee2040-2b40-40e4-9c4f-08e1bb280726.PNG)
+
+
+* Top view: 
+![top view](https://user-images.githubusercontent.com/105018459/205694537-a77899c3-8040-47ce-a704-cedc2b7af951.PNG)
+
+
+* Front view:
+![frontview](https://user-images.githubusercontent.com/105018459/205694569-205ac294-4b4d-42ed-86a5-b5398dc9d753.PNG)
+
+
+* Side view:
+![side view](https://user-images.githubusercontent.com/105018459/205694610-4f659c4c-560d-475a-b659-17e0d86ef179.PNG)
+
+* Winning Screen:
+
+![Winning sreen](https://user-images.githubusercontent.com/105018459/205694821-fdc8b066-853f-46de-a246-f7dadab3f6d6.PNG)
+
+
+* Losing Screen:
+![losing screen](https://user-images.githubusercontent.com/105018459/205694862-d51f7d88-c3b1-472b-a200-f300d9bccb4f.PNG)
+
+* And you can move the camera using keys and mouse to get to a different view.
 
 
 # Technologies
