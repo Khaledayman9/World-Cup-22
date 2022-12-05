@@ -34,7 +34,8 @@ A 3D scene. The scene has different 3D objects themed as the world cup decoratio
 - The player has to score a goal before 22 seconds (approx.) which is the timer.
 - The player wins if he scores a goal before the timer runs out, otherwise the referee whistles indicating end of time and he loses.
 - The scoreboard gets updated only if the player scores a goal before the timer runs out.
-
+- A text is displayed to indicate whether the player wins or loses.
+ 
 # Movement
 
 - The player can move with keys (1,2,3,4).
@@ -68,6 +69,9 @@ A 3D scene. The scene has different 3D objects themed as the world cup decoratio
 
 
 # Layout
+
+* If the player wins, the following text "YOU WON, PRESS R TO TRY AGAIN" is displayed indicating that he won and scored the goal.
+* If the player loses, the following text "YOU LOST, PRESS R TO TRY AGAIN" is displayed indicating that he lost and he did not score on time.
 
 * Default view:
 
