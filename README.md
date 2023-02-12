@@ -3,7 +3,7 @@ A 3D scene. The scene has different 3D objects themed as the world cup decoratio
 
 
 
-![](https://github.com/Khaledayman9/World-Cup-22/blob/master/worldcupgif.gif)
+![](https://github.com/Khaledayman9/World-Cup-22/blob/master/newgif.gif)
 
 
 
